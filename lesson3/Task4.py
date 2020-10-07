@@ -2,7 +2,7 @@ def my_func(x, y):
 	step = 1
 	try:
 		while y > 0:
-			step = x * x
+			step = step * x
 			y -= 1
 		result = 1 / step
 		return round(result, 8)
