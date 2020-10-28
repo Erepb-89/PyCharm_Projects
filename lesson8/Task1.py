@@ -23,10 +23,6 @@ class MyData:
 		else:
 			print('Введите день в диапазоне от 1 до 31, месяц в диапазоне от 1 до 12, год в диапазоне от 1900 до 2100')
 
-	def __str__(self):
-		res = self.m_2()
-		return f'{res}'
 
 my_data = MyData('03-05-1989')
-print(my_data)
 print(MyData.m_2(my_data))
